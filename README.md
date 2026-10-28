@@ -10,7 +10,7 @@ Official standalone Coming Soon landing page for [ekavyu.com](https://ekavyu.com
 
 ## Assets
 - `index.html`: Complete standalone landing page with responsive styling and accessibility.
-- `ekavyu-leaf.png`: Brand identity mark.
+- `ekavyu-mark.svg`: Transparent forest/gold vector from the supplied handoff.
 - `favicon-32.png` / `favicon-16.png`: Favicon icons.
 
 ## Local Preview
