@@ -23,8 +23,10 @@
   <meta name="twitter:description" content="A smarter, simpler way to connect care and deliver better healthcare experiences." />
 
   <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=brand-5" />
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png?v=brand-5" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=brand-6" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png?v=brand-6" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-dark-32.png?v=brand-6" media="(prefers-color-scheme: dark)" />
+  <link rel="apple-touch-icon" sizes="180x180" href="app-icon-180.png?v=brand-6" />
 
   <!-- Google Fonts — Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -178,18 +180,15 @@
 
     .brand-logo {
       width: 36px;
-      height: 36px;
+      height: 30px;
       object-fit: contain;
       display: block;
     }
 
     .brand-wordmark {
-      font-size: 1.25rem;
-      font-weight: 600;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--brand-ink);
-      line-height: 1;
+      display: block;
+      width: 126px;
+      height: auto;
     }
 
     /* ── Main Hero ─────────────────────────────────────────────── */
@@ -429,13 +428,13 @@
     <header class="site-header" role="banner">
       <a href="/" class="brand-mark" aria-label="Ekavyu — Home">
         <img
-          src="ekavyu-mark.svg"
-          alt="Ekavyu"
+          src="ekavyu-symbol-black.svg?v=brand-6"
+          alt=""
           class="brand-logo"
           width="36"
-          height="36"
+          height="27"
         />
-        <span class="brand-wordmark">Ekavyu</span>
+        <img src="ekavyu-wordmark-black.svg?v=brand-6" alt="" class="brand-wordmark" width="574" height="97" />
       </a>
     </header>
 

@@ -10,8 +10,8 @@ Official standalone Coming Soon landing page for [ekavyu.com](https://ekavyu.com
 
 ## Assets
 - `index.html`: Complete standalone landing page with responsive styling and accessibility.
-- `ekavyu-mark.svg`: Transparent forest/gold vector from the supplied handoff.
-- `favicon-32.png` / `favicon-16.png`: Favicon icons.
+- `ekavyu-symbol-black.svg` / `ekavyu-wordmark-black.svg`: Original outlined monochrome artwork from the supplied EKAVYU kit. Separate vectors avoid the overlapping geometry in the kit's horizontal export.
+- `favicon.ico`, `favicon-32.png`, `favicon-dark-32.png`, `favicon-16.png` and `app-icon-180.png`: Supplied browser and Apple icons. `brand-6` refreshes cached assets. Source kit and publishing script live in the frontend repository's `assets/brand/` and `scripts/generate-brand-assets.mjs`.
 
 ## Local Preview
 Open `index.html` directly in any browser:
